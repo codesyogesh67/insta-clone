@@ -1,0 +1,26 @@
+
+.imageupload__progress{
+    width: 100%;
+    margin:4px 0px;
+}
+
+.imageUpload{
+    display:flex;
+    flex-direction: column;
+}
+
+.imageUpload__title{
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.imageUpload__inputText{
+    padding: 5px;
+    margin: 4px 0px;
+    
+}
+
+.imageUpload__inputFile{
+    padding: 3px;
+    margin: 4px 0px;
+}

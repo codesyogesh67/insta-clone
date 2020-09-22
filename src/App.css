@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+}
+
+.app{
+  background-color: #fafafa;
+  height: 100vh;
+}
+
+.app__header {
+  /* keep the size same */
+  position:sticky;
+  top:0;
+  z-index:1;
+  background-color: white;
+  object-fit: contain;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  display:flex;
+}
+
+.app__signUp{
+  display:flex;
+  flex-direction: column;
+ 
+}
+
+.app__login{
+  margin-left: auto;
+}
+
+.app__posts{
+  display:flex;
+  justify-content: center;
+}
+
+.appPosts__left{
+  padding:20px;
+}
+
+.appPosts__right{
+  padding:20px;
+}
+
+.addcomment__commentBox{
+  padding:10px;
+}
+
+.addComment__comment{
+  padding:5px;
+}
+
+.addComment__postBox{
+  display:flex;
+  margin-top:10px;
+}
+
+.addComment__input{
+  border:none;
+  padding:10px;
+  flex:1;
+  border-top: 1px solid lightgray;
+}
+
+.addComment__input:focus{
+  outline:none;
+}
+
+.addComment__button{
+  color: #6082a3;
+  background-color:transparent;
+  border:none;
+  flex:0;
+  border-top: 1px solid lightgray;
+}
+
+.app__imageUpload{
+  width:58%;
+  border: 1px solid lightgray;
+  margin-left: auto;
+  margin-right:auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  padding-bottom:1px;
+  
+}
+
+

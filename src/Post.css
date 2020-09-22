@@ -1,0 +1,54 @@
+.post {
+  background-color: white;
+  max-width: 500px;
+  border: 1px solid lightgray;
+  margin-bottom: 45px;
+}
+
+.post__image {
+  width: 100%;
+  object-fit: contain;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.post__text {
+  font-weight: normal;
+  padding: 10px;
+}
+
+.post__header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.post__avatar {
+  margin-right: 10px;
+}
+
+.post__deleteButton {
+  margin-left: auto;
+  border: 1px solid rgb(193, 193, 193);
+  border-radius: 0.2rem;
+  background: transparent;
+  color: rgb(151, 144, 144);
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.post__deleteButton:focus {
+  outline: none;
+}
+
+.post__modalButton {
+  display: flex;
+  margin-left: 30%;
+  margin-top: 1.2rem;
+}
+
+.post__modalButton button {
+  padding: 0.2rem 1rem;
+  font-size: 1rem;
+  margin-right: 2rem;
+}
